@@ -96,7 +96,7 @@ public class Dashboard extends AppCompatActivity {
 
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
                 View rootView = inflater.inflate(R.layout.fragment_camera, container, false);
-                TextView textView1 = (TextView) rootView.findViewById(R.id.camera);
+                TextView textViewOne = (TextView) rootView.findViewById(R.id.camera);
                 return rootView;
             } else {
                 // Obtain the SupportMapFragment and get notified when the map is ready to be used.
